@@ -12,7 +12,7 @@ let today = document.getElementById("today"),
     searchBar = document.getElementById("searchBar"),
     responseData,
     finalData,
-    currentCity="cairo"
+    currentCity="Alexandria"
 
     // Next Days Variables:
     let nextDay = document.getElementsByClassName("nextDay"),
