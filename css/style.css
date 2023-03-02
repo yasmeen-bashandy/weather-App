@@ -1,0 +1,206 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:#1E202B ;
+  color: #bfc1c8;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+/* .navbar-nav .nav-link.active{
+  border-color: #009ad8;
+  color: #009ad8;
+}
+nav ul li{
+  padding: 5px 50px;
+}
+
+nav ul .nav-link{
+  color: #fff;
+  border-radius: 30px;
+  border: 2px solid transparent;
+  padding: 5px 25px;
+  font-size: 16x;
+}
+
+nav a:hover{
+  border-color: #009ad8;
+}
+
+.site-header .logo-cap h1{
+  font-size: 16px;
+  }
+
+.site-header .logo-cap p{
+    font-size: 10px;
+}
+   */
+
+   .day-detials {
+    border-top-left-radius:30px ;
+    border-top-right-radius:30px ;
+   }
+   .temp-datails{
+    border-bottom-left-radius:30px ;
+    border-bottom-right-radius:30px ;
+   }
+   .temp-datails img{
+    margin:auto;
+   }
+.temp-card{
+ background-color:#009ad8;
+}
+
+
+
+  .search-input{
+    background-image: url(../imges/images2.png);
+    min-height: 400px;
+    background-size: cover;
+    /* padding: 70px 0; */
+  }
+  #searchBar {
+    width: 100%;
+    margin-top: 100px;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+  }
+  
+
+
+  .forecast-table .row{
+    /* background: #323544; */
+    margin-top: -150px;
+    color:#bfc1c8;
+
+    
+  }
+  .forecast-table .day-detials{
+    background-color: #2D303D;
+
+  }
+  .forecast-table .temp-datails{
+    background-color:  #323544;
+  }
+
+#todayDescription,#nextDay-description,.nextDayDescription{
+  color:#009ad8 ;
+}
+
+  /* footer {
+    background-color: #323544;
+    padding: 10px 0;
+}
+
+footer i {
+    margin-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+footer i:hover{
+  color: #009ad8;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .site-header .logo-cap h1{
+font-size: 16px;
+}
+.site-header .logo-cap p{
+  font-size: 10px;
+}
+
+
+.search-sec{
+  background-image: url(../imges/images2.png);
+  min-height: 350px;
+  background-size: cover;
+  padding: 70px 0;
+}
+#search {
+  width: 100%;
+  padding: 20px 50px 20px 20px;
+  background: #1e202b;
+  color: white;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+}
+
+
+
+.forecast-table .row{
+  border-radius: 10px;
+  background: #323544;
+  width: 100%;
+  margin-top: -150px;
+  
+}
+.forecast-table .row .sec{
+  background-color: #262936;
+}
+.forecast-header{
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.forecast-content{
+  padding: 30px 0;
+}
+.forecast-content .location{
+  font-size: 18px;
+}
+.today .forecast-content .degree .num{
+font-size: 90px;
+}
+.forecast-content .custom{
+  color: #009ad8;
+}
+.forecast-content .degree .num{
+font-size: 24px;
+}
+
+.forecast {
+  text-align: center;
+}
+.forecast-content small{
+padding: 9px;
+}
+ */
+
+
+
+
+
+
+
+
+
+
