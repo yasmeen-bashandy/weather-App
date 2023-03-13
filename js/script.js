@@ -1,3 +1,4 @@
+  //! >>>>>>>>>> Global >>>>>>>>>>>>>>>>>
 let today = document.getElementById("today"),
     todayDateMonth= document.getElementById("today-date-month"),
     cityLocation = document.getElementById("location"),
@@ -11,15 +12,15 @@ let today = document.getElementById("today"),
 
     searchBar = document.getElementById("searchBar"),
     responseData,
-    finalData,
-    currentCity="Alexandria"
+    finalData;
+    // currentCity='Alexandria'
 
     // Next Days Variables:
     let nextDay = document.getElementsByClassName("nextDay"),
     nextDayIcon = document.getElementsByClassName("nextDayIcon"),
     maxDegree = document.getElementsByClassName("maxDegree"),
     minDegree = document.getElementsByClassName("minDegree"),
-    nextDayDescription = document.getElementsByClassName("nextDayDescription")
+    nextDayDescription = document.getElementsByClassName("nextDayDescription");
 
 
 monthName = ['Jan','Feb','March','April','May','June','July','Aug','Spet','Oct','Nov','Dec'],
@@ -34,15 +35,19 @@ days = [
   ];
 
 
-async function getData(){
-    responseData= await fetch(`https://api.weatherapi.com/v1/forecast.json?key=790126e6a09342cfa6a162205232802&q=${currentCity}&days=3&aqi=yes&alerts=yes`);
+//! >>>>>>>>>> when start >>>>>>>>>>>>>>>>>
+  getData()
+
+
+//! >>>>>>>>>> function >>>>>>>>>>>>>>>>>
+async function getData(currentCity='Alexandria'){
+    responseData= await fetch(`https://api.weatherapi.com/v1/forecast.json?key=790126e6a09342cfa6a162205232802&q=${currentCity}&days=3`);
     finalData= await responseData.json();
-    console.log(finalData);
+    // console.log(finalData);
     displayTodayWeather()
     displayNextDayWeather()
 };
 
-getData()
 
 function displayTodayWeather(){
     let date =new Date();
@@ -71,9 +76,9 @@ function displayNextDayWeather(){
 }
 // displayNextDayWeather()
 
+//! >>>>>>>>>> Event >>>>>>>>>>>>>>>>>
 searchBar.addEventListener("keyup",function(){
    currentCity= searchBar.value;
-   console.log("currentCity");
-   getData()
-
+//    console.log("currentCity");
+   getData(currentCity)
 })
